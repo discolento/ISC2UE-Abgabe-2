@@ -2,12 +2,35 @@
 <html lang="en">
 <head>
     <title>HYP1_T1 &ndash; JavaScript Date Object</title>
-    <meta charset="utf-8">
-    <!-- TODO: Create your JavaScript file and include it here -->
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="DateObject.js"></script>
 </head>
-<body>
-<!-- TODO: Call functions for current day and current time (from the JS file) here -->
+<body class="image">
 
-<!-- TODO: Add links for time on page and refresh and call them using the javascript pseudo protocol -->
+<div class="content-wrapper-horizontal">
+    <div class="content-wrapper-vertical">
+        <div>
+            <div class="content">
+                <h1>HYP1_T1 - JavaScript Date Object</h1>
+            </div>
+            <div class="content2">
+                <h3>Today is </h3>
+                <h1  id="date"></h1>
+                <h3>The Time is </h3>
+                <h1  id="time"></h1>
+                <a href="javascript:timeOnPage()">Your time on this page</a>
+                <br/>
+                <a href="javascript:refresh()">Refresh</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    currentDay()
+    currentTime()
+</script>
 </body>
 </html>
+
